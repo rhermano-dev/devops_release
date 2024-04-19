@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.6808510638297872" branch-rate="0" lines-covered="32" lines-valid="47" branches-covered="0" branches-valid="2" complexity="13" version="0" timestamp="1713485940">
+<coverage line-rate="0.5714285714285714" branch-rate="0" lines-covered="20" lines-valid="35" branches-covered="0" branches-valid="2" complexity="9" version="0" timestamp="1713496440">
   <sources>
     <source>/home/runner/work/devops/devops/WebAPI/WebAPI/</source>
   </sources>
   <packages>
-    <package name="WebAPI" line-rate="0.6808510638297872" branch-rate="0" complexity="13">
+    <package name="WebAPI" line-rate="0.5714285714285714" branch-rate="0" complexity="9">
       <classes>
         <class name="Program" filename="/home/runner/work/devops/devops/WebAPI/WebAPI/Program.cs" line-rate="0" branch-rate="0" complexity="2">
           <methods>
@@ -43,52 +43,6 @@
             <line number="21" hits="0" branch="false" />
             <line number="23" hits="0" branch="false" />
             <line number="25" hits="0" branch="false" />
-          </lines>
-        </class>
-        <class name="WebAPI.Controllers.PersonController" filename="/home/runner/work/devops/devops/WebAPI/WebAPI/Controllers/PersonController.cs" line-rate="1" branch-rate="1" complexity="4">
-          <methods>
-            <method name="GetPersonDetails" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="18" hits="2" branch="false" />
-                <line number="19" hits="2" branch="false" />
-                <line number="20" hits="2" branch="false" />
-                <line number="21" hits="2" branch="false" />
-                <line number="22" hits="2" branch="false" />
-                <line number="23" hits="2" branch="false" />
-                <line number="24" hits="2" branch="false" />
-                <line number="26" hits="2" branch="false" />
-                <line number="27" hits="2" branch="false" />
-              </lines>
-            </method>
-            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="11" hits="3" branch="false" />
-              </lines>
-            </method>
-            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="12" hits="5" branch="false" />
-              </lines>
-            </method>
-            <method name="get_Age" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="13" hits="5" branch="false" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="11" hits="3" branch="false" />
-            <line number="12" hits="5" branch="false" />
-            <line number="13" hits="5" branch="false" />
-            <line number="18" hits="2" branch="false" />
-            <line number="19" hits="2" branch="false" />
-            <line number="20" hits="2" branch="false" />
-            <line number="21" hits="2" branch="false" />
-            <line number="22" hits="2" branch="false" />
-            <line number="23" hits="2" branch="false" />
-            <line number="24" hits="2" branch="false" />
-            <line number="26" hits="2" branch="false" />
-            <line number="27" hits="2" branch="false" />
           </lines>
         </class>
         <class name="WebAPI.Controllers.WeatherForecastController" filename="/home/runner/work/devops/devops/WebAPI/WebAPI/Controllers/WeatherForecastController.cs" line-rate="1" branch-rate="1" complexity="3">
